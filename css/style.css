@@ -1,0 +1,55 @@
+body {
+  background-color: red;
+}
+
+.painel {
+  background-color: white;
+  margin: auto;
+  width: 600px;
+  height: 700px;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#sim {
+  height: 40px;
+  width: 60px;
+  background-color: red;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+#nao {
+  position: absolute;
+  height: 40px;
+  width: 60px;
+  background-color: red;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.foto {
+  max-width: 250px;
+  max-height: auto;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.foto:hover {
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
+}
+
+.botao {
+  margin-right: 50px;
+}
